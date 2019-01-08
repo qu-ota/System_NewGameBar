@@ -1,0 +1,5 @@
+id: 2490
+icon: mobile
+type: Client-side Mods
+title: Game Bar
+version: 1
