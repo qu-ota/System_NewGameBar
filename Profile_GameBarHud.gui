@@ -1,0 +1,42 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiControl(Profile_GameBarHUD) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "0 0";
+   extent = "1024 768";
+   minExtent = "8 2";
+   visible = "1";
+
+   new GuiMLTextCtrl(JSIGMT) {
+      profile = "MM_RightProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "244 2";
+      extent = "105 14";
+      minExtent = "8 2";
+      visible = "1";
+      lineSpacing = "2";
+      allowColorChars = "0";
+      maxChars = "-1";
+      text = " Waiting for Server...";
+      maxBitmapHeight = "-1";
+      selectable = "0";
+   };
+   new GuiMLTextCtrl(JSCONTERR_IDG) {
+      profile = "GuiTextProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "240 17";
+      extent = "216 14";
+      minExtent = "8 2";
+      visible = "1";
+      lineSpacing = "2";
+      allowColorChars = "0";
+      maxChars = "-1";
+      text = " ";
+      maxBitmapHeight = "-1";
+      selectable = "0";
+   };
+};
+//--- OBJECT WRITE END ---
